@@ -1,0 +1,82 @@
+name: tape-pipeline
+
+# 云端跑重活：抓取 → 配对 → 校准报告（手机只收摘要）
+# 手动触发，参数化窗口与成交量门槛
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "回溯窗口（天）"
+        default: "365"
+      min_volume:
+        description: "C 档最小成交量（USD）"
+        default: "1000"
+      fidelity:
+        description: "价格粒度（分钟）"
+        default: "60"
+  schedule:
+    - cron: "17 3 * * *"    # 每天 03:17 UTC 增量补抓
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tape-pipeline
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Prepare workspace paths (scripts expect /var/minis/workspace/polymarket)
+        run: |
+          sudo mkdir -p /var/minis/workspace/polymarket/data
+          sudo chown -R "$USER" /var/minis/workspace
+          cp -v fetch_markets.py fetch_prices.py analyze.py analyze2.py /var/minis/workspace/polymarket/
+          cd /var/minis/workspace/polymarket && ls -la
+
+      - name: Fetch resolved markets (Gamma)
+        run: cd /var/minis/workspace/polymarket && python3 fetch_markets.py --days "${{ inputs.days || 365 }}"
+
+      - name: Fetch price tape (CLOB)
+        run: cd /var/minis/workspace/polymarket && python3 fetch_prices.py --days "${{ inputs.days || 365 }}" --workers 12 --fidelity "${{ inputs.fidelity || 60 }}"
+
+      - name: Analyze (v1 raw + v2 deduped)
+        run: |
+          cd /var/minis/workspace/polymarket
+          python3 analyze.py  || true
+          python3 analyze2.py --min-volume "${{ inputs.min_volume || 1000 }}" || true
+          cp /var/minis/workspace/polymarket/*.md . || true
+
+      - name: Commit results back
+        run: |
+          git config user.name  "tape-bot"
+          git config user.email "tape-bot@users.noreply.github.com"
+          mkdir -p runs
+          STAMP=$(date -u +%Y%m%d-%H%M)
+          mkdir -p "runs/$STAMP"
+          cp /var/minis/workspace/polymarket/*.md "runs/$STAMP/" 2>/dev/null || true
+          cp /var/minis/workspace/polymarket/data/*.jsonl.gz "runs/$STAMP/" 2>/dev/null || true
+          gzip -9 -c /var/minis/workspace/polymarket/data/*.jsonl > "runs/$STAMP/tape.jsonl.gz" 2>/dev/null || true
+          ls -la "runs/$STAMP" | head -20
+          git add -A runs
+          git commit -m "tape run $STAMP (days=${{ inputs.days || 365 }})" || echo "nothing to commit"
+          git push
+
+      - name: Summary
+        run: |
+          {
+            echo "## tape-pipeline run"
+            echo ""
+            echo "window: ${{ inputs.days || 365 }} days | min-volume: ${{ inputs.min_volume || 1000 }}"
+            echo ""
+            cat /var/minis/workspace/polymarket/calibration-report-v2.md 2>/dev/null | head -60 || echo "(no report)"
+          } >> "$GITHUB_STEP_SUMMARY"
