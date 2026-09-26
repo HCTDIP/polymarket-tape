@@ -1,34 +1,34 @@
-market_id,condition_id,question,volume,p_3d,outcome_yes,outcome_prices
-3543589,0x0c81284bfac882bb96f2b735a6378b19545e60c9e120dacdf78e9cce358465d4,Will Aalesund be runner-up in the 2026 Norway Eliteserien?,1376.46,0.0050,0,["0", "1"]
-3249834,0x51baeef39a630b44c3a386ccf20d1efed7de8a80e27f4f5caebec9ae8841548d,Grok (Web) Outage by December 31  2026?,1818.02,0.8650,1,["1", "0"]
-3213982,0xf7c55b1473451d64b94db4d89dbe41de043b7fd18b30107e4de8e5be4bed172c,Will Russia enter Hannivka by December 31  2026?,7569.77,0.8100,1,["1", "0"]
-3212536,0x24e3c4f1807ab27d9bf76d2d3c40683475b7b98d14b39a3769a7b5b2d1b6fcee,Will Jared Kushner visit Ukraine by December 31  2026?,31522.22,0.7800,1,["1", "0"]
-3192362,0x9cfd8decb914c67fa92eb85f798b2b96fd9b3c80f2e9e31d07e23ae79617da80,Will the next Claude Opus model be released by December 31  2026?,28046.30,0.9740,1,["1", "0"]
-3092915,0x155a46f5d3ea786c42f145377f62a8d28d87a24878eaa5500ee3c17f9e29d040,Will the next UK parliament by-election be called by December 31?,4640.06,0.9900,1,["1", "0"]
-3072351,0x432986c91a2a364d37179db26f78e8b7b69a5da3c0bc7e09a3458918dc6ad34a,Will the highest score achieved by an OpenAI model on Humanity’s Last Exam in 2026 be 50% or higher?,17329.07,0.8995,1,["1", "0"]
-3091053,0xc469cead73a9753d3657588d34e83372abea7638f434eb1f89d8441d5aacf69c,Next Kimi K model released by December 31  2026?,5087.91,0.9870,1,["1", "0"]
-3071800,0xee96762c2087b4be3fb73e66714b374ef302ce4fec2b508c93c42243a3a9c1cb,Will any AI model reach a Chatbot Arena score of at least 1520 by December 31?,61261.50,0.8410,1,["1", "0"]
-3026052,0x5d02cb8ef8fe6c50dd2d58283dfe5742b4f13cfa5acbaa4b75dc25a438c6594d,Will Benjamin Netanyahu visit New York City by December 31?,102052.61,0.9705,1,["1", "0"]
-2875116,0x56a4b0042067ce39ad6aa76238f1de393368f6ba1e22568457256f5213e16798,Will the Ornn B200 Index hit $7.50 (HIGH) by December 31  2026?,7175.14,0.8965,1,["1", "0"]
-2734400,0x233de1da162309649fd451ca62d21b0f9f1df57ecd38aa98c5d35f70c8d1198a,Will the Serbian National Assembly be dissolved by December 31?,83927.48,0.9860,1,["1", "0"]
-1373742,0xe815a6ed1772fcd0b2bd5b4bfbb3e095ac17937316e6afc510e8d97fa3edf3e5,Will there be at least 3000 measles cases in the U.S. in 2026?,94190.03,0.9920,1,["1", "0"]
-2686886,0xa81e6c4b879283aab1b725506190a5da7216ed4b550991d3017b9e804b595336,Will Trump meet with Delcy Rodríguez by December 31  2026?,48459.29,0.9180,1,["1", "0"]
-2677116,0x87e88f20d213f027db39448af1f48591fe37fe7cae7fe88cd9e88f3b12256aad,Will Russia enter Serhiivka by December 31?,7719.28,0.6900,1,["1", "0"]
-2491448,0xdb9a48e14ceafcbe77af0b52af2ba5579108c827b57f7e98adef96a9a82013cb,Icelandic European Union membership negotiations referendum passes?,285615.19,0.0015,0,["0", "1"]
-2373875,0xff181059a9fbccb17ff936f0ad812c52a9b348c5eacf3d9444d1e42c2b7b8653,Will Russia capture Sofiivka by December 31?,19638.65,0.7900,1,["1", "0"]
-2373921,0xe51b0cdb413eb9a18243e70c1f33705cdab18f4149b867f32f05650e758d8070,Will Russia enter Dobropillia by December 31?,169417.70,0.8350,1,["1", "0"]
-2232193,0x6557ff312837c0707d82bc2def893572289e012cff21a264593c6551f85d7e50,Will Russia enter Dopropillia by December 31  2026?,452873.71,0.8450,1,["1", "0"]
-2333966,0xa51caf016e6a79535f600379963ad0319b4304f9f509f2d41ce06fb88bcb673b,Will jL appear as an analyst at an S-Tier CS tournament in 2026?,14771.77,0.0950,1,["1", "0"]
-2080565,0xf2c4d5abcc25ca31ea6244000d0403692461917d2624ea959257caa0d22fcc3f,Pro Football: Will OBJ sign with a team in 2026?,5562.40,0.9880,1,["1", "0"]
-2000375,0xbaf6c46a63acfeb05de6db22cb5041d13f7e57a0c9e45f3a1c8cd83ab6416089,Will Toy Story 5 have the best domestic opening week in 2026?,3657.44,0.0005,0,["0", "1"]
-1646000,0x3d7540115867219195e1385b619a7c472ac732062552f51738616bcdf6923221,Will Donald Trump visit Ireland in 2026?,12150.89,0.9870,1,["1", "0"]
-1323329,0xf179f57bcd9d754aee6245c7816d523f3dabcd476e6f26c4b9f6cd8108e72a9f,Will the US federal government take a stake in Rigetti Computing  Inc.?,27840.46,0.9940,1,["1", "0"]
-1321653,0xd6487ff71f26b698891f9b5aa361a4f8037d324b2b98327faa5675cca91f4eb7,SHEIN IPO before 2027?,120693.09,0.9940,1,["1", "0"]
-1236459,0x6a7aed00fae37de19e0b789a6b50a7475ff1afa898c50b9da11ca733a23199fa,Trump x Greenland deal signed by December 31?,479948.59,0.9650,1,["1", "0"]
-1169724,0x5d6b15ab6a3814b4bce80adfe95a41b9060884ba1c0edeefb5c470387b6b4208,Serbian Parliamentary Election called before 2027?,47652.18,0.9380,1,["1", "0"]
-1131454,0xf89ba0a4af6cf971d1d6eb1b0fca2194ace4dfb3e492821e16a4ed49a365a5a1,Will SpaceX have less than 100 launches in 2026?,5815.40,0.0030,0,["0", "1"]
-1059432,0x2cd190ae199174a4711aad7266dba9c1a175eeb0cc4b5fffa0b9180ad8a43702,Will Ciryl Gane become UFC champion in 2026?,13496.09,0.8250,1,["1", "0"]
-921947,0x8993fe75e5079e37bd765ec45548184645d3fdc6efef9f7302a95ba8113efa8a,Will Apple release iPhone 18 in 2026?,252063.53,0.9995,1,["1", "0"]
-676847,0x4632e96b7010fa4c1474d876f178539f11a284761c08842db5dd2e737cf6341b,AI model scores ≥ 90% on FrontierMath Benchmark before 2027?,134219.39,0.8950,1,["1", "0"]
-676829,0x46c8159431f59839061bb4abe8795ff8c0ebf6b612451e303ebe7f34697f3f35,Will GPT-6 be released by December 31  2026?,328244.74,0.7450,1,["1", "0"]
-2300264,0xe17e8bd9d4ea1631adcf4884eb24bd6a2af05b3494a9eb4b4f3ebdcb8bc3ce41,Will Kraken's valuation hit (LOW) $9B by December 31?,11169.27,0.6000,1,["1", "0"]
+"market_id","condition_id","question","volume","p_3d","outcome_yes","outcomes","outcome_prices"
+"3543589","0x0c81284bfac882bb96f2b735a6378b19545e60c9e120dacdf78e9cce358465d4","Will Aalesund be runner-up in the 2026 Norway Eliteserien?","1376.46","0.0050","0","[""Yes"", ""No""]","[""0"", ""1""]"
+"3249834","0x51baeef39a630b44c3a386ccf20d1efed7de8a80e27f4f5caebec9ae8841548d","Grok (Web) Outage by December 31, 2026?","1818.02","0.8650","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"3213982","0xf7c55b1473451d64b94db4d89dbe41de043b7fd18b30107e4de8e5be4bed172c","Will Russia enter Hannivka by December 31, 2026?","7569.77","0.8100","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"3212536","0x24e3c4f1807ab27d9bf76d2d3c40683475b7b98d14b39a3769a7b5b2d1b6fcee","Will Jared Kushner visit Ukraine by December 31, 2026?","31522.22","0.7800","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"3192362","0x9cfd8decb914c67fa92eb85f798b2b96fd9b3c80f2e9e31d07e23ae79617da80","Will the next Claude Opus model be released by December 31, 2026?","28046.30","0.9740","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"3092915","0x155a46f5d3ea786c42f145377f62a8d28d87a24878eaa5500ee3c17f9e29d040","Will the next UK parliament by-election be called by December 31?","4640.06","0.9900","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"3072351","0x432986c91a2a364d37179db26f78e8b7b69a5da3c0bc7e09a3458918dc6ad34a","Will the highest score achieved by an OpenAI model on Humanity’s Last Exam in 2026 be 50% or higher?","17329.07","0.8995","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"3091053","0xc469cead73a9753d3657588d34e83372abea7638f434eb1f89d8441d5aacf69c","Next Kimi K model released by December 31, 2026?","5087.91","0.9870","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"3071800","0xee96762c2087b4be3fb73e66714b374ef302ce4fec2b508c93c42243a3a9c1cb","Will any AI model reach a Chatbot Arena score of at least 1520 by December 31?","61261.50","0.8410","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"3026052","0x5d02cb8ef8fe6c50dd2d58283dfe5742b4f13cfa5acbaa4b75dc25a438c6594d","Will Benjamin Netanyahu visit New York City by December 31?","102052.61","0.9705","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2875116","0x56a4b0042067ce39ad6aa76238f1de393368f6ba1e22568457256f5213e16798","Will the Ornn B200 Index hit $7.50 (HIGH) by December 31, 2026?","7175.14","0.8965","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2734400","0x233de1da162309649fd451ca62d21b0f9f1df57ecd38aa98c5d35f70c8d1198a","Will the Serbian National Assembly be dissolved by December 31?","83927.48","0.9860","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"1373742","0xe815a6ed1772fcd0b2bd5b4bfbb3e095ac17937316e6afc510e8d97fa3edf3e5","Will there be at least 3000 measles cases in the U.S. in 2026?","94190.03","0.9920","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2686886","0xa81e6c4b879283aab1b725506190a5da7216ed4b550991d3017b9e804b595336","Will Trump meet with Delcy Rodríguez by December 31, 2026?","48459.29","0.9180","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2677116","0x87e88f20d213f027db39448af1f48591fe37fe7cae7fe88cd9e88f3b12256aad","Will Russia enter Serhiivka by December 31?","7719.28","0.6900","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2491448","0xdb9a48e14ceafcbe77af0b52af2ba5579108c827b57f7e98adef96a9a82013cb","Icelandic European Union membership negotiations referendum passes?","285615.19","0.0015","0","[""Yes"", ""No""]","[""0"", ""1""]"
+"2373875","0xff181059a9fbccb17ff936f0ad812c52a9b348c5eacf3d9444d1e42c2b7b8653","Will Russia capture Sofiivka by December 31?","19638.65","0.7900","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2373921","0xe51b0cdb413eb9a18243e70c1f33705cdab18f4149b867f32f05650e758d8070","Will Russia enter Dobropillia by December 31?","169417.70","0.8350","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2232193","0x6557ff312837c0707d82bc2def893572289e012cff21a264593c6551f85d7e50","Will Russia enter Dopropillia by December 31, 2026?","452873.71","0.8450","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2333966","0xa51caf016e6a79535f600379963ad0319b4304f9f509f2d41ce06fb88bcb673b","Will jL appear as an analyst at an S-Tier CS tournament in 2026?","14771.77","0.0950","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2080565","0xf2c4d5abcc25ca31ea6244000d0403692461917d2624ea959257caa0d22fcc3f","Pro Football: Will OBJ sign with a team in 2026?","5562.40","0.9880","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2000375","0xbaf6c46a63acfeb05de6db22cb5041d13f7e57a0c9e45f3a1c8cd83ab6416089","Will Toy Story 5 have the best domestic opening week in 2026?","3657.44","0.0005","0","[""Yes"", ""No""]","[""0"", ""1""]"
+"1646000","0x3d7540115867219195e1385b619a7c472ac732062552f51738616bcdf6923221","Will Donald Trump visit Ireland in 2026?","12150.89","0.9870","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"1323329","0xf179f57bcd9d754aee6245c7816d523f3dabcd476e6f26c4b9f6cd8108e72a9f","Will the US federal government take a stake in Rigetti Computing, Inc.?","27840.46","0.9940","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"1321653","0xd6487ff71f26b698891f9b5aa361a4f8037d324b2b98327faa5675cca91f4eb7","SHEIN IPO before 2027?","120693.09","0.9940","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"1236459","0x6a7aed00fae37de19e0b789a6b50a7475ff1afa898c50b9da11ca733a23199fa","Trump x Greenland deal signed by December 31?","479948.59","0.9650","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"1169724","0x5d6b15ab6a3814b4bce80adfe95a41b9060884ba1c0edeefb5c470387b6b4208","Serbian Parliamentary Election called before 2027?","47652.18","0.9380","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"1131454","0xf89ba0a4af6cf971d1d6eb1b0fca2194ace4dfb3e492821e16a4ed49a365a5a1","Will SpaceX have less than 100 launches in 2026?","5815.40","0.0030","0","[""Yes"", ""No""]","[""0"", ""1""]"
+"1059432","0x2cd190ae199174a4711aad7266dba9c1a175eeb0cc4b5fffa0b9180ad8a43702","Will Ciryl Gane become UFC champion in 2026?","13496.09","0.8250","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"921947","0x8993fe75e5079e37bd765ec45548184645d3fdc6efef9f7302a95ba8113efa8a","Will Apple release iPhone 18 in 2026?","252063.53","0.9995","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"676847","0x4632e96b7010fa4c1474d876f178539f11a284761c08842db5dd2e737cf6341b","AI model scores ≥ 90% on FrontierMath Benchmark before 2027?","134219.39","0.8950","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"676829","0x46c8159431f59839061bb4abe8795ff8c0ebf6b612451e303ebe7f34697f3f35","Will GPT-6 be released by December 31, 2026?","328244.74","0.7450","1","[""Yes"", ""No""]","[""1"", ""0""]"
+"2300264","0xe17e8bd9d4ea1631adcf4884eb24bd6a2af05b3494a9eb4b4f3ebdcb8bc3ce41","Will Kraken's valuation hit (LOW) $9B by December 31?","11169.27","0.6000","1","[""Yes"", ""No""]","[""1"", ""0""]"
