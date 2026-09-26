@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-26T16:5xZ",
+  "files": {
+    "analyze.py": "d63c61dcc4e240e774dccf594ec24802269eb309c2492d63de97a880ab99c7bd",
+    "analyze2.py": "b0e0b9250fbf2f9fd2af8ca584b756d0e72e806e044775da7dbadbe8a75b126c",
+    "fetch_markets.py": "880678390c32c4582befef570d66245def1a3a0b5d35fbb621e424c4d2676723",
+    "fetch_prices.py": "d30600da1ecb93b4f385b573c2ee32cff8b2e6254921f7c8173bbd16eb0bd0c8",
+    "push_tape.py": "7dbf939091e2a1e8f7178b210153a002839e629bea6f2c34d958598a2733a25e",
+    "data/markets_resolved_20260926.jsonl": "59aedf791c1ae8bf6b2766c785df05c6cad6a50a8acde8d9883ebdde9e8e5dbd",
+    "data/prices_60d.jsonl": "56ca39e2e7f995783c56f72e8edb6d660a88d7bd0b8cd63bd6089f3d4fca2522",
+    "calibration-report-v2.md": "c053b09e8d3334962ed5d2129ba7c4848f3420ee423f49c157fc05987c95db28",
+    "校准审计报告-v2.md": "c053b09e8d3334962ed5d2129ba7c4848f3420ee423f49c157fc05987c95db28",
+    "校准审计报告.md": "8b3c7807e7fd1b9773d1654e6c159fc5ceec9f5731e4ac2b16ef6e7bb2d51db0"
+  }
+}
